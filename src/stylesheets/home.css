@@ -1,0 +1,30 @@
+.tagline-description {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; /* Adjust the transition duration as needed */
+    font-family: 'JetBrains';
+  }
+  
+  .fade-in {
+    opacity: 1;
+  }
+  
+  .fade-out {
+    opacity: 0;
+  }
+
+  .about-header {
+    width: 350px;
+    position: absolute;
+    left: 22%;
+    top: 25%;
+    
+  }
+
+  .circle-photo {
+    border-radius: 50%;
+    position: relative;
+    top: -250px;
+    left: 700px;
+    width: 300px;
+    height: 300px;
+  }

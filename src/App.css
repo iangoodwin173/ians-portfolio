@@ -1,8 +1,13 @@
+@font-face {
+  font-family: 'JetBrains';
+  src: url('./assets/fonts/JetBrainsMonoNL-Regular.ttf');
+}
+
 .App {
   text-align: center;
-  background-image: url('./assets/images/portfolio-bg.jpg');
+  background-image: url('./assets/images/black-bg.png');
   background-size: cover;
-  background-position: 50%;
+  
 }
 
 .App-logo {
