@@ -46,15 +46,22 @@ function Home() {
   }, [currentIndex]);
 
   return (
-    <div className='about-header'>
+    <div className='home-header'> 
       <p className="tagline-text">
         Hi, I'm Ian.
       </p>
       <p className={`tagline-description ${isVisible ? 'fade-in' : 'fade-out'}`}>
         {selectedTagline}
       </p>
-      <img src={logo} alt="Circle Profile Picture" className='circle-photo'/>
+      <img src={circlePhoto} alt="Circle Profile Picture" className='circle-photo'/>
+
+        <div className='supplemental-about'>
+            <p>I am a Web Developer that has experience with HTML, CSS, JavaScript, React, Node.js, Express.js, SQL, MongoDB, MERN Stack, and other related technologies.</p>
+
+        </div>
     </div>
+
+    
   );
 }
 

@@ -9,6 +9,10 @@
     font-family: 'JetBrains';
 }
 
+.navbar-links a:hover {
+    font-size: 22px;
+}
+
 .navbar-links {
     list-style: none;
     position: absolute;
